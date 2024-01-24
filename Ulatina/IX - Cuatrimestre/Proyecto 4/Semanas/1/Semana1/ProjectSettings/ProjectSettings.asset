@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 1b8c85601d3ef7f4690d49b14e06f8b0
+  productGUID: 7bdc055e25e888a41abe770181d1f52c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -702,10 +702,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: f343bfd7-3583-422b-a115-342d23881be3
+  cloudProjectId: a634f930-c4ff-400d-971c-635dd44ff335
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Semana1
+  projectName: Semana1 2024-01-17_14-36-52
   organizationId: sebasvd_29
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

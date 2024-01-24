@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour
+public class CharacterManager: MonoBehaviour
 {
 
-    public SpriteRenderer spriteRenderer;
-    public Rigidbody2D rigidbody2D;
+    [HideInInspector] SpriteRenderer spriteRenderer;
+    [HideInInspector] Rigidbody2D rigidbody2D;
 
 
     [SerializeField]
-    [Range(1f, 10f)]public float velocity = 5;
+    [Range(1f, 10f)] public float velocity = 5;
     [SerializeField] public float xDirection = 1;
 
 
@@ -29,12 +29,12 @@ public class CharacterController : MonoBehaviour
 
     private void FixedUpdate() //Se aplica cuando sea el final de los cuadros
     {
-        rigidbody2D.velocity = new Vector2(velocity*xDirection*Time.deltaTime, 0);
+        rigidbody2D.velocity = new Vector2(velocity*xDirection, 0);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        xDirection *= -1;
+        xDirection = xDirection * - 1;
 
         if(xDirection < 0)
         {
