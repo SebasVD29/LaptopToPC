@@ -6,6 +6,7 @@ public class Collected : MonoBehaviour
 {
   
     [SerializeField]GameObject collected;
+    [SerializeField]GameObject Padre;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,8 +14,10 @@ public class Collected : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().enabled = false;
             collected.gameObject.SetActive(true);
-            Destroy(gameObject, 0.5f);
-            Destroy(collected, 0.5f);
+            
+           //Destroy(gameObject, 0.5f);
+            //Destroy(collected, 0.5f);
+            Destroy(Padre, 0.5f);
         }
     }
 }
