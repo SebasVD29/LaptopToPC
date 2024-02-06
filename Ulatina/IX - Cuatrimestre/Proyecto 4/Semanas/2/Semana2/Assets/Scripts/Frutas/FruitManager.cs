@@ -14,15 +14,15 @@ public class FruitManager : MonoBehaviour
 
     private void Start()
     {
-        frutas = transform.childCount;
         Mensaje();
+        frutas = transform.childCount;
     }
 
 
     private void Update()
     {
-        frutasActuales = transform.childCount;
         Mensaje();
+        frutasActuales = transform.childCount;
         if (frutasActuales == 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
