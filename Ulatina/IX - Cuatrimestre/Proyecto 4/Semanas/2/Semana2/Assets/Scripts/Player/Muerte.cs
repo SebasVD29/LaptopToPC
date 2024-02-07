@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Muerte : MonoBehaviour
 {
+
+    public GameObject player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +24,7 @@ public class Muerte : MonoBehaviour
 
         if (collision.transform.CompareTag("Player"))
         {
-            Destroy(collision.gameObject);
+            Destroy(player);
         }
     }
 

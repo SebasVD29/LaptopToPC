@@ -5,18 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class playerRespawn : MonoBehaviour
 {
-    string nivelActual;
-    string checkPointLevel;
-    float checkPointX;
-    float checkPointY;
+ 
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-         nivelActual = SceneManager.GetActiveScene().name;
+        animator = GetComponent<Animator>();
+        string nivelActual = SceneManager.GetActiveScene().name;
 
-         checkPointLevel = PlayerPrefs.GetString("checkPointLevel");
-         checkPointX = PlayerPrefs.GetFloat("checkPointTransformX");
-         checkPointY = PlayerPrefs.GetFloat("checkPointTransformY");
+        string checkPointLevel = PlayerPrefs.GetString("checkPointLevel");
+        float checkPointX = PlayerPrefs.GetFloat("checkPointTransformX");
+        float checkPointY = PlayerPrefs.GetFloat("checkPointTransformY");
 
         if (nivelActual == checkPointLevel)
         {
@@ -31,6 +30,19 @@ public class playerRespawn : MonoBehaviour
         PlayerPrefs.SetFloat("checkPointTransformX", x);
         PlayerPrefs.SetFloat("checkPointTransformY", y);
 
-  
     }
+
+    public void PlayerHit()
+    {
+        animator.Play("HitFrog");
+        Invoke("LoadLevel", 1);
+
+    }
+
+    void LoadLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+
 }

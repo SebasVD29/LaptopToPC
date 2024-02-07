@@ -19,8 +19,8 @@ public class checkPoints : MonoBehaviour
             float y = gameObject.transform.position.y;
 
             collision.GetComponent<playerRespawn>().ReachedCheckPoint(nivel,x,y);
-
             GetComponent<Animator>().Play("checkPointOut");
+
 
         }
     }

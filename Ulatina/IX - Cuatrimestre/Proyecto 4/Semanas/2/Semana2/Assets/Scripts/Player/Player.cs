@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     public float runSpeed = 2;
     public float jumpSpeed = 3;
+    public float dobleSaltoSpeed = 2.5f;
+    private bool canDoubleJump;
     Rigidbody2D player;
     SpriteRenderer playerRender;
     public Jump playerJump;
@@ -49,10 +51,34 @@ public class Player : MonoBehaviour
             animator.SetFloat("Runing", 0);
         }
 
-        if (Input.GetKey("space") && playerJump.isGrounded)
+        if (Input.GetKeyDown("space") )
         {
-            player.velocity = new Vector2(player.velocity.x, jumpSpeed );
+            if ( playerJump.isGrounded)
+            {
+                canDoubleJump = true;
+                player.velocity = new Vector2(player.velocity.x, jumpSpeed);
+            }
+            else
+            {
+                if (canDoubleJump)
+                {
+                    canDoubleJump= false;
+                    animator.SetBool("DoubleJump", true);
+                    player.velocity = new Vector2(player.velocity.x, dobleSaltoSpeed);
+                }
+            }
+
+
+
+
+
+
         }
+
+
+
+
+
         if (betterJump)
         {
             if (player.velocity.y < 0)
@@ -68,12 +94,22 @@ public class Player : MonoBehaviour
         if (playerJump.isGrounded)
         {
             animator.SetBool("isJumping", false);
+            animator.SetBool("DoubleJump", false);
+            animator.SetBool("Fall", false);
         }
         else
         { 
             animator.SetBool("isJumping", true);
         }
+        if (player.velocity.y < 0)
+        {
+            animator.SetBool("Fall", true);
+        }
+        else
+        {
+            animator.SetBool("Fall", false);
 
+        }
 
     }
 

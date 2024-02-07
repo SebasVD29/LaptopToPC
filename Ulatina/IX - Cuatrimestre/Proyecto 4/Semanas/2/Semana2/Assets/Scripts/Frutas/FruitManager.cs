@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class FruitManager : MonoBehaviour
 {
     public Text text;
+    public Text endLevel;
 
     int frutas;
     int frutasActuales;
@@ -25,7 +26,9 @@ public class FruitManager : MonoBehaviour
         frutasActuales = transform.childCount;
         if (frutasActuales == 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+            endLevel.gameObject.SetActive(true);
+            Invoke("ChangeLevel", 1);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         }
     }
 
@@ -33,5 +36,10 @@ public class FruitManager : MonoBehaviour
     void Mensaje()
     {
         text.text = frutasActuales + " / " + frutas ;
+    }
+
+    void ChangeLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
