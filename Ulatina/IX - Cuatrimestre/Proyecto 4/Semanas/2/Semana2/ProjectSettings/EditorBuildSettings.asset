@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Prefabs/Scenes/Nivel1.unity
+    path: Assets/Scenes/Nivel1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Prefabs/Scenes/Nivel2.unity
+    path: Assets/Scenes/Nivel2.unity
     guid: e4951c692d03a7a4b87f3ddcd13961a8
+  - enabled: 1
+    path: Assets/Scenes/Nivel 3.unity
+    guid: d920436880f914644b5044808162cf24
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 4491c4913a9756e4a8c1d13eddeb6c83
   m_configObjects: {}
