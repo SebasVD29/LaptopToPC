@@ -68,17 +68,7 @@ public class Player : MonoBehaviour
                 }
             }
 
-
-
-
-
-
         }
-
-
-
-
-
         if (betterJump)
         {
             if (player.velocity.y < 0)
