@@ -11,8 +11,8 @@ public class playerRespawn : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        string nivelActual = SceneManager.GetActiveScene().name;
 
+        string nivelActual = SceneManager.GetActiveScene().name;
         string checkPointLevel = PlayerPrefs.GetString("checkPointLevel");
         float checkPointX = PlayerPrefs.GetFloat("checkPointTransformX");
         float checkPointY = PlayerPrefs.GetFloat("checkPointTransformY");
