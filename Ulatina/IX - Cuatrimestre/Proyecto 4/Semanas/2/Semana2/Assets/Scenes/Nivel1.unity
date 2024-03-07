@@ -161,7 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a49c9a68cc3b264a85f1413cc4cc7e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 264713592}
 --- !u!61 &161755410
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -324,11 +323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dce028c3179b464f8562c7059c865ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &264713592 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4350936378132653960, guid: 06b9a00a75f723b498b487140533b634, type: 3}
-  m_PrefabInstance: {fileID: 7173006284868626847}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &299657268 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1336245971727124871, guid: 8ec550844d862f842b56950905d78430, type: 3}
@@ -2028,7 +2022,7 @@ GameObject:
   - component: {fileID: 1614380280}
   - component: {fileID: 1614380279}
   - component: {fileID: 1614380278}
-  - component: {fileID: 1614380277}
+  - component: {fileID: 1614380281}
   m_Layer: 0
   m_Name: Idle
   m_TagString: Untagged
@@ -2051,18 +2045,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482527378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1614380277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614380275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c93e3e63fe3c87439df4eacbb377c90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1614380278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2181,6 +2163,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1614380281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614380275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dce028c3179b464f8562c7059c865ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1620644135
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,7 +2218,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1620644135}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1d0a66dd770eb0c4fa0218afc7268d6c, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

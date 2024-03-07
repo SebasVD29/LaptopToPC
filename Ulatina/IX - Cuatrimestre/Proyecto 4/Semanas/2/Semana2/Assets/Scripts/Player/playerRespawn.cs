@@ -7,41 +7,56 @@ public class playerRespawn : MonoBehaviour
 {
  
     Animator animator;
+    string actualLevel;
+    string level;
+    float xPos, yPos;
+
     // Start is called before the first frame update
     void Start()
     {
+        //Asigna el animator al iniciar el nivel 
         animator = GetComponent<Animator>();
-
-        string nivelActual = SceneManager.GetActiveScene().name;
-        string checkPointLevel = PlayerPrefs.GetString("checkPointLevel");
-        float checkPointX = PlayerPrefs.GetFloat("checkPointTransformX");
-        float checkPointY = PlayerPrefs.GetFloat("checkPointTransformY");
-
-        if (nivelActual == checkPointLevel)
+        //Obtiene el nivel actual 
+        actualLevel = SceneManager.GetActiveScene().name;
+        //Obtien las variables del checkpoint 
+        level = PlayerPrefs.GetString("checkPointLevel");
+        xPos = PlayerPrefs.GetFloat("checkPointX");
+        yPos = PlayerPrefs.GetFloat("checkPointY");
+        //Valida si el nivel actual es el mismo del ultimo checkpoint 
+        if (actualLevel == level)
         {
-            transform.position = new Vector2(checkPointX, checkPointY);
+            transform.position = new Vector2(xPos, yPos);
         }
     }
-  
-   
+
+
     public void ReachedCheckPoint(string nivel,float x, float y)
     {
         PlayerPrefs.SetString("checkPointLevel", nivel);
-        PlayerPrefs.SetFloat("checkPointTransformX", x);
-        PlayerPrefs.SetFloat("checkPointTransformY", y);
+        PlayerPrefs.SetFloat("checkPointX", x);
+        PlayerPrefs.SetFloat("checkPointY", y);
 
     }
 
     public void PlayerHit()
     {
-        animator.Play("HitFrog");
-        Invoke("LoadLevel", 1);
+        animator.Play("Hit");
+        Invoke("LoadLevel", 0.5f);
 
     }
 
     void LoadLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (string.IsNullOrEmpty(PlayerPrefs.GetString("checkPointLevel")))
+        {
+            //Debug.Log("name == null" + PlayerPrefs.GetString("checkPointLevel"));
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        else
+        {
+            //Debug.Log("name != null "+PlayerPrefs.GetString("checkPointLevel"));
+            SceneManager.LoadScene(PlayerPrefs.GetString("checkPointLevel"));
+        }
     }
 
 

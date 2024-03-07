@@ -14,11 +14,12 @@ public class checkPoints : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            string nivel = SceneManager.GetActiveScene().name;
-            float x = gameObject.transform.position.x;
-            float y = gameObject.transform.position.y;
+            //OBTIENE EL NIVEL Y LA POSICION EN X - Y
+            string level = SceneManager.GetActiveScene().name;
+            float x = collision.transform.position.x;
+            float y = collision.transform.position.y;
 
-            collision.GetComponent<playerRespawn>().ReachedCheckPoint(nivel,x,y);
+            collision.GetComponent<playerRespawn>().ReachedCheckPoint(level, x, y);
             GetComponent<Animator>().Play("checkPointOut");
 
 
