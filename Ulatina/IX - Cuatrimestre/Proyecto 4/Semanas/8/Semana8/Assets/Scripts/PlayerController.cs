@@ -36,10 +36,11 @@ public class PlayerController : MonoBehaviour
         playerInput = new Vector3(horizontal, 0, vertical);
         playerInput = Vector3.ClampMagnitude(playerInput, 1);
         CameraDirection();
-        movePlayer = playerInput.x * camRight + playerInput.z * camForward;
+        movePlayer = playerInput.x * camRight + playerInput.z * camForward; 
+        player.transform.LookAt(player.transform.position + movePlayer);
+
         setGravity();
         PlayerSkill();
-        player.transform.LookAt(player.transform.position + movePlayer);
         player.Move(movePlayer * speed * Time.deltaTime);
 
     }
