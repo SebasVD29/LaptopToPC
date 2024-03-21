@@ -13,7 +13,7 @@ public class ThirdPersonCamera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        target = GameObject.Find("Player").transform;
+        target = GameObject.Find("PlayerGranny").transform;
     }
 
     // Update is called once per frame

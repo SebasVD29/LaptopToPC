@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,10 +22,18 @@ public class PlayerController : MonoBehaviour
     private Vector3 camRight;
 
 
+    public bool isInSlope = false;
+    Vector3 hitNormal;
+    public float slideVelocity;
+    public float slopeForceDown;
+
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GetComponent<CharacterController>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -35,6 +44,7 @@ public class PlayerController : MonoBehaviour
 
         playerInput = new Vector3(horizontal, 0, vertical);
         playerInput = Vector3.ClampMagnitude(playerInput, 1);
+        animator.SetFloat("Walk", playerInput.magnitude * speed);
         CameraDirection();
         movePlayer = playerInput.x * camRight + playerInput.z * camForward; 
         player.transform.LookAt(player.transform.position + movePlayer);
@@ -69,9 +79,11 @@ public class PlayerController : MonoBehaviour
             fallVelocity -= gravity * Time.deltaTime;
             movePlayer.y = fallVelocity;
         }
+
+        animator.SetBool("isGrounded", player.isGrounded);
+        animator.SetFloat("Vertical", movePlayer.y);
+        slideDown();
     }
-
-
     public void PlayerSkill()
     {
         if (player.isGrounded && Input.GetButton("Jump"))
@@ -82,4 +94,22 @@ public class PlayerController : MonoBehaviour
 
         }
     }
+
+    void slideDown()
+    {
+        isInSlope = Vector3.Angle(Vector3.up, hitNormal) > player.slopeLimit;
+        if (isInSlope)
+        {
+            movePlayer.x += ((1 - hitNormal.x) * hitNormal.x) * slideVelocity;
+            movePlayer.z += ((1 - hitNormal.z) * hitNormal.z) * slideVelocity;
+
+            movePlayer.y = slopeForceDown;
+        }
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        hitNormal = hit.normal;
+    }
+
 }
