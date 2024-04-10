@@ -9,12 +9,17 @@ public class PlayerController : MonoBehaviour
     public float vertical;
     public CharacterController player;
     public Vector3 playerInput;
+    public FixedJoystick joystick;
+    public bool useJoystick = false;
 
     public float speed;
     private Vector3 movePlayer;
     public float gravity = 9.8f;
     public float fallVelocity;
     public float jumpForce;
+    public float doubleJumpForce;
+    bool canDoubleJump = false;
+
 
 
     public Camera camera;
@@ -39,8 +44,16 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
+        if (useJoystick)
+        {
+            horizontal = joystick.Horizontal;
+            vertical = joystick.Vertical;
+        }
+        else
+        {
+            horizontal = Input.GetAxis("Horizontal");
+            vertical = Input.GetAxis("Vertical");
+        }
 
         playerInput = new Vector3(horizontal, 0, vertical);
         playerInput = Vector3.ClampMagnitude(playerInput, 1);
@@ -54,7 +67,27 @@ public class PlayerController : MonoBehaviour
         player.Move(movePlayer * speed * Time.deltaTime);
 
     }
+    public void Jump()
+    {
+        if (player.isGrounded )
+        {
+            canDoubleJump = true;
+            fallVelocity = jumpForce;
+            movePlayer.y = fallVelocity;
 
+            player.Move(movePlayer * speed * Time.deltaTime);
+        } 
+        else
+        {
+            if (canDoubleJump)
+            {
+                fallVelocity = doubleJumpForce;
+                movePlayer.y = fallVelocity;
+                player.Move(movePlayer * speed * Time.deltaTime);
+                canDoubleJump = false;
+            }
+        }
+    }
     void CameraDirection()
     {
         camForward = camera.transform.forward;
@@ -86,10 +119,9 @@ public class PlayerController : MonoBehaviour
     }
     public void PlayerSkill()
     {
-        if (player.isGrounded && Input.GetButton("Jump"))
+        if (Input.GetButton("Jump"))
         {
-            fallVelocity = jumpForce;
-            movePlayer.y = fallVelocity;
+            Jump();
 
 
         }
