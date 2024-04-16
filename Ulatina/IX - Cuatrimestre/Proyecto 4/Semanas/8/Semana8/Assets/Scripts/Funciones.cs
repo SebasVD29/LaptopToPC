@@ -24,6 +24,7 @@ public class Funciones : MonoBehaviour
     }
     public void Restart()
     {
-        //SceneManager.LoadScene();
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

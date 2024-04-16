@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -9,6 +10,7 @@ public class Health : MonoBehaviour
     public float invincibleTime = 1f;
     public float stopTime = 0.2f;
 
+    public GameObject[] vidas;
     public void Damage(int damage)
     {
         if (!invincible &&  life > 0)
@@ -21,9 +23,9 @@ public class Health : MonoBehaviour
 
     public void AddLife(int cant)
     {
-        if (life + cant > 100)
+        if (life + cant > 3)
         {
-            life = 100;
+            life = 3;
         }
         else
         {
@@ -45,6 +47,22 @@ public class Health : MonoBehaviour
         yield return new WaitForSeconds(stopTime);
         GetComponent<PlayerController>().speed = actualVelocity;
         
+    }
+
+
+    void UpdateLife()
+    {
+        for (int i = 0; i < vidas.Length; i++)
+        {
+            //if ()
+            //{
+
+            //}
+            //else
+            //{
+
+            //}
+        }
     }
 
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GiveLifePlayer : MonoBehaviour
 {
-    public int life = 20;
+    public int life = 1;
 
     private void OnTriggerEnter(Collider other)
     {
