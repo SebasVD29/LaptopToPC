@@ -19,6 +19,7 @@ public class Health : MonoBehaviour
             StartCoroutine(Invicible());
             StartCoroutine(StopVelocity());
         }
+        UpdateLife();
     }
 
     public void AddLife(int cant)
@@ -31,6 +32,7 @@ public class Health : MonoBehaviour
         {
             life += cant;
         }
+        UpdateLife();
     }
 
     IEnumerator Invicible()
@@ -54,14 +56,14 @@ public class Health : MonoBehaviour
     {
         for (int i = 0; i < vidas.Length; i++)
         {
-            //if ()
-            //{
-
-            //}
-            //else
-            //{
-
-            //}
+            if (life >= i+1)
+            {
+                vidas[i].SetActive(false);
+            }
+            else
+            {
+                vidas[i].SetActive(true);
+            }
         }
     }
 
