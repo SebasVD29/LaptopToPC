@@ -1,0 +1,31 @@
+Capituo 1
+
+Estadistica: conjunto de metodos y teorias aplicadas a la recoleccion descripcion y analisis de datos los cuales constityen evidencias numerica para la toma de decisiones 
+
+las metodologias para recopilar y describir datos numericos es conocida como: Estadistica descriptiva 
+
+las generalizacion acerca de la totalidad de los datos costituye; la poblacion 
+
+las investigacion realizadas en una parte de la poblacion es: la Muestra
+
+el estudio de como se realiza estas generalizaciones constituye: estadistica inferiacial o inferencia estadistica, estos metodos se requieren para pronosticar las tendencias de la demanda.
+
+Funciones 
+
+Recopilar datos: consta de recopilar los datos
+
+procesar datos: consta de organizar, corregir, clasificar y tabular los datos
+
+Presentacion:
+
+Analisis: 
+
+Interpretacion: 
+
+
+Capitulo 2 
+
+
+Capitulo 4
+
+
