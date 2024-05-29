@@ -1,0 +1,138 @@
+                Multiprocessor and Multicore Scheduling 
+
+        multiprocessor systems
+
+cluster: 
+    Consists of a collection of relatively autonomous systems, each processor having its own 
+main memory and I/O channels
+
+Functionally specialized processors: 
+     there is a master, general-purpose processor; specialized processors are 
+controlled by the master processor and provide services to it
+
+Tightly coupled multiprocessor: 
+    Consists of a set of processors that share a common main memory 
+and are under the integrated control of an operating system.
+
+
+  Granularity
+A good way of characterizing multiprocessors and placing them in context with 
+other architectures is to consider the synchronization granularity
+
+Independet Parallelism:
+    With independent parallelism, there is no explicit 
+synchronization among processes. Each represents a separate, independent 
+application or job.
+
+    A typical use of this type of parallelism is in a time-sharing system.
+
+Coarse and Very Coarse-Grained Parallelism
+    With coarse and very coarse-grained parallelism, there is synchronization 
+among processes, but at a very gross level.
+
+Medium-Grained Parallelism
+    the programmer must explicitly specify the potential parallelism of an application.
+
+    Typically, there will need to be rather a high degree of coordination and interaction 
+among the threads of an application, leading to a medium-grain level of synchronization.
+
+Fine-Grained Parallelism
+     Fine-grained parallelism represents a much more 
+complex use of parallelism than is found in the use of threads.
+
+    
+        Design Issues
+
+Scheduling on a multiprocessor involves three interrelated issues:
+1. The assignment of processes to processors
+2. The use of multiprogramming on individual processors
+3. The actual dispatching of a process
+
+
+Assignment of Processes to Processors
+    If we assume the architecture of the multiprocessor is uniform, in the sense 
+that no processor has a particular physical advantage with respect to access 
+to main memory or to I/O devices, then the simplest scheduling approach is to treat 
+the processors as a pooled resource, and assign processes to processors on demand.
+
+The Use of Multiprogramming on Individual Processors
+
+
+
+Process Dispatching
+    The final design issue related to multiprocessor scheduling 
+is the actual selection of a process to run
+
+    on a multiprogrammed uniprocessor, the use of priorities scheduling algorithms based on 
+past usage may improve performance over a simple-minded first-come-first-served strategy
+
+    When we consider multiprocessors, these complexities may be unnecessary and a simpler approach 
+may be more effective with less overhead.
+
+
+        Process Scheduling
+
+
+        Thread Scheduling
+
+the concept of execution is separated from the rest 
+of the definition of a process. An application can be implemented as a set of threads 
+that cooperate and execute concurrently in the same address space
+
+
+    Load sharing: 
+    Processes are not assigned to a particular processor. A global 
+queue of ready threads is maintained, and each processor, when idle, selects a 
+thread from the queue
+
+    Load sharing is perhaps the simplest approach and the one that 
+carries over most directly from a uniprocessor environment
+
+    Gang scheduling:
+    A set of related threads is scheduled to run on a set of 
+processors at the same time, on a one-to-one basis
+
+    Dedicated processor assignment:
+    This is the opposite of the load-sharing 
+approach and provides implicit scheduling defined by the assignment of threads 
+to processors.
+
+    Dynamic scheduling: 
+    The number of threads in a process can be altered during 
+the course of execution.
+
+
+        Multicore Thread Scheduling
+
+essentially treat scheduling in multicore systems in the same 
+fashion as a multiprocessor system.
+
+schedulers tend to focus on keeping processors busy by load balancing 
+so threads ready to run are evenly distributed among the processors
+
+The traditional (and still principal) means of minimizing off-chip 
+memory access is the use of caches. This approach is complicated by some of 
+the cache architectures used on multicore chips, specifically when a cache is shared 
+by some but not all of the cores.
+
+when some but not all cores share a cache, the way in which threads are allcated 
+to cores during scheduling has a significant effect on performance
+
+There are in fact two different aspects of cache sharing to take into account: 
+cooperative resource sharing and resource contention. 
+
+With cooperative resource sharing, multiple threads access the same set of main memory locations
+
+The objective of contention-aware scheduling is to 
+allocate threads to cores in such a way as to maximize the effectiveness of the shared 
+cache memory, and therefore to minimize the need for off-chip memory accesses.
+
+
+
+
+
+
+
+
+
+
