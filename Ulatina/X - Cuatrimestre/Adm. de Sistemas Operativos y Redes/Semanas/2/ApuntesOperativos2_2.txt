@@ -52,8 +52,7 @@ se puede desperdiciar recuros si un procesos se queda bloqueada
     planificacion dinamica 
 el numero de hilos puede ver afectada durante de la ejecucion 
 
-
-lectura 10.2
+podria haber hilos, cores etc como recursos dinamicos 
 
 
 

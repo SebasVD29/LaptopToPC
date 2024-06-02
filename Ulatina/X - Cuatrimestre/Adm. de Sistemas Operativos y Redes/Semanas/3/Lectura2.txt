@@ -1,0 +1,115 @@
+                Real-Time Scheduling 
+
+        Background
+    The operating system, and in particular the scheduler, is perhaps the most important component 
+of a real-time system.
+
+    We can define a real-time system by defining what is meant by a real-time process, or task
+
+    Such a task may be classified as hard or soft.
+*A hard real-time task is one that must meet its deadline
+*A soft real-time task has an associated deadline that is desirable but not mandatory
+
+    ?Another characteristic of real-time tasks is whether they are periodic or aperiodic
+*An aperiodic task has a deadline by which it must finish or start, or it may have a 
+constraint on both start and finish time
+*A periodic task, the requirement may be stated as “once per period T” or 
+“exactly T units apart.”
+
+
+        Characteristics of Real-Time Operating Systems
+
+Real-time operating systems can be characterized as having unique requirements in 
+five general areas :
+1. Determinism
+2. Responsiveness
+3. User control
+4. Reliability
+5. Fail-soft operation
+
+    Determinism
+    An operating system is deterministic to the extent that it performs operations 
+at fixed, predetermined times or within predetermined time intervals.
+
+    One useful measure of the ability of an operating system to function deterministically 
+is the maximum delay from the arrival of a high-priority device interrupt to when servicing begins
+
+
+    Responsiveness
+    Responsiveness is concerned with how long, after acknowledgment, it takes an 
+operating system to service the interrupt.
+
+    Response time requirements are critical for real-time systems, because such 
+systems must meet timing requirements imposed by individuals, devices, and data 
+flows external to the system
+
+    Fail-soft operation 
+    characteristic that refers to the ability of a system to fail in 
+such a way as to preserve as much capability and data as possible.
+
+
+        Real-Time Scheduling
+
+    whether a system performs schedulability analysis,
+if it does, whether it is done statically or dynamically,
+whether the result of the analysis itself produces a schedule or plan according 
+to which tasks are dispatched at run time.
+
+    Static table-driven approaches
+
+    These perform a static analysis of feasible 
+schedules of dispatching
+
+    Static priority-driven preemptive approaches
+
+    Again, a static analysis is performed, 
+but no schedule is drawn up.
+
+    Dynamic planning-based approaches:
+
+    Feasibility is determined at run time (dynamically) 
+rather than offline prior to the start of execution (statically)
+
+    Dynamic best effort approaches: 
+
+    No feasibility analysis is performed. The system tries to meet all 
+deadlines and aborts any started process whose deadline is missed.
+
+        Deadline Scheduling
+
+
+
+
+
+        Rate Monotonic Scheduling
+
+
+
+        Priority Inversion
+
+    Priority inversion is a phenomenon that can occur in any priority-based preemptive 
+scheduling scheme, but is particularly relevant in the context of real-time scheduling. 
+
+    Priority inversion occurs when circumstances within the 
+system force a higher-priority task to wait for a lower-priority task
+
+    In practical systems, two alternative approaches are used to avoid unbounded 
+priority inversion: 
+    priority inheritance protocol:
+    
+idea of priority inheritance is that a lower-priority task inherits the 
+priority of any higher-priority task pending on a resource they share
+
+    priority ceiling protocol:
+
+In the priority ceiling approach, a priority is associated with each resource. The 
+priority assigned to a resource is one level higher than the priority of its highest-priority
+
+
+
+
+
+
+
+
+
