@@ -1,0 +1,17 @@
+cap 18.4
+Configuraciones de clúster: 
+Los clústeres pueden clasificarse en función de si los ordenadores comparten el acceso a los mismos discos1. 
+Los dos tipos principales son los servidores separados sin discos compartidos y los clústeres de discos compartidos, en los que varios ordenadores acceden a un subsistema de disco común.
+
+Cuestiones de diseño del sistema operativo: 
+El funcionamiento eficaz de un clúster requiere mejoras en el sistema operativo, 
+como la gestión de fallos, el equilibrio de carga y la provisión de una imagen de sistema único.
+
+Gestión de fallos: 
+Los clusters pueden ser de alta disponibilidad o tolerantes a fallos5. Los clústeres de alta disponibilidad 
+garantizan que los recursos estén en servicio la mayor parte del tiempo, mientras que los clústeres tolerantes a fallos garantizan que todos los recursos estén siempre disponibles.
+
+Middleware de clúster: 
+El middleware de los clústeres proporciona una imagen de sistema único y una infraestructura de disponibilidad, 
+lo que permite la ejecución eficiente de aplicaciones paralelas y una gestión de recursos sin fisuras.
+

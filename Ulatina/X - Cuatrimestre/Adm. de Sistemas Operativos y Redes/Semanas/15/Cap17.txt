@@ -1,0 +1,38 @@
+Cap 17.1
+Introducción a los protocolos:
+Los protocolos son esenciales para la comunicación entre entidades de distintos sistemas. 
+efinen las reglas para el intercambio de datos, incluyendo la sintaxis, la semántica y la temporización.
+
+Importancia de la arquitectura de protocolos: 
+Un conjunto estructurado de protocolos, organizados en capas, simplifica el diseño y la implementación de los sistemas de comunicación. 
+Cada capa proporciona funciones específicas y depende de la capa inferior para funciones más primitivas.
+
+Diseño modular: 
+El enfoque por capas permite un diseño modular, lo que facilita el desarrollo, las pruebas y el mantenimiento de los protocolos de comunicación. 
+También facilita el desarrollo de estándares.
+
+Conjunto de protocolos TCP/IP: 
+El capítulo presenta el conjunto de protocolos TCP/IP, que es la arquitectura estándar utilizada para las comunicaciones 
+por Internet y consta de varias capas para gestionar los distintos aspectos de la transmisión de datos.
+
+Cap 17.2
+
+Introducción:
+El conjunto de protocolos TCP/IP se desarrolló para ARPANET y consiste en una gran colección de protocolos publicados como estándares de Internet por el Consejo de Actividades de Internet (IAB).
+
+Capas: 
+El modelo TCP/IP está organizado en cinco capas: Física, Acceso a la Red, Internet, Host-to-Host (Transporte) y Aplicación. Cada capa gestiona funciones específicas para facilitar la comunicación entre sistemas.
+
+Protocolos clave:
+TCP (Protocolo de Control de Transmisión): 
+Garantiza una transferencia de datos fiable entre aplicaciones1.
+
+UDP (Protocolo de Datagramas de Usuario): 
+Proporciona un método de comunicación más sencillo y sin conexión.
+
+IP (Protocolo de Internet): 
+Gestiona el encaminamiento y direccionamiento de paquetes de datos a través de redes2.
+
+IPv6: 
+se introdujo para hacer frente a las limitaciones de IPv4, incluido un espacio de direcciones mayor y una funcionalidad mejorada para las redes modernas.
+

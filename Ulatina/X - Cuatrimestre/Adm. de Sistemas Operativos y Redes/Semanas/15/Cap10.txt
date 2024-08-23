@@ -1,0 +1,15 @@
+Retos abordados: 
+La automatización es esencial para gestionar entornos informáticos sofisticados, abordando 
+cuestiones como la velocidad, la precisión y la escala del aprovisionamiento de servicios.
+
+Redes definidas por software (SDN): 
+La SDN separa el plano de control del plano de datos, lo que permite una gestión y 
+un aprovisionamiento más eficientes de la red a través de controladores centralizados y API.
+
+Interfaces de programación de aplicaciones (API): 
+Las API son cruciales para interactuar con dispositivos y aplicaciones de red, 
+ofreciendo una alternativa más eficiente a las interfaces tradicionales de línea de comandos.
+
+Impacto en la gestión de servicios de TI y la seguridad: 
+La automatización influye en la gestión de servicios de TI y la seguridad, promoviendo metodologías 
+como ITIL y TOGAF para operaciones de red estructuradas y seguras.
