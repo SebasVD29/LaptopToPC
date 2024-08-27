@@ -1,6 +1,9 @@
 Cap 16.1
 Computación en nube
-La computación en nube hace referencia a la prestación de servicios informáticos a través de Internet, lo que incluye servidores, almacenamiento, bases de datos, redes, software, etc. Este capítulo cubre:
+La computación en nube hace referencia a la prestación de servicios informáticos a través de Internet, 
+lo que incluye servidores, almacenamiento, bases de datos, redes, software, etc. 
+
+Este capítulo cubre:
 
 Definición y características:
 
