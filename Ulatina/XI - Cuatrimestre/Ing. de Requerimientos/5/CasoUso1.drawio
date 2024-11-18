@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Página-1" id="H3itGaWhM59u5qM9t2ia">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-1" target="Sxsv5j0yogh4FWrSsxf4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-1" value="Doctor/&lt;div&gt;Enfermero/&lt;/div&gt;&lt;div&gt;Medico&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-7" target="Sxsv5j0yogh4FWrSsxf4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-7" value="Ingresan la información de paciente al sistema" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-9" target="Sxsv5j0yogh4FWrSsxf4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-9" value="Paciente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-11" target="Sxsv5j0yogh4FWrSsxf4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-11" value="Ingresa al hospital" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="140" y="55" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-15" target="Sxsv5j0yogh4FWrSsxf4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-15" target="Sxsv5j0yogh4FWrSsxf4-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-15" target="Sxsv5j0yogh4FWrSsxf4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-15" value="El sistema debe verificar el nivel de urgencia del paciente" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-19" target="Sxsv5j0yogh4FWrSsxf4-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-19" value="Se le asignan sus respectivos recursos de camas, doctores y equipos" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="375" y="400" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-24" target="Sxsv5j0yogh4FWrSsxf4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Si no es urgente" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="610" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-29" target="Sxsv5j0yogh4FWrSsxf4-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-29" value="&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Si es&amp;nbsp;&lt;/div&gt;&lt;div&gt;moderado&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="410" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-30" target="Sxsv5j0yogh4FWrSsxf4-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-30" value="&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Si es&amp;nbsp;&lt;/div&gt;&lt;div&gt;critico&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-35" target="Sxsv5j0yogh4FWrSsxf4-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-35" value="Se le notifica a cada recurso sobre la asignación del nuevo paciente" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="375" y="524.5" width="150" height="65.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sxsv5j0yogh4FWrSsxf4-37" target="Sxsv5j0yogh4FWrSsxf4-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-37" value="El encargado del paciente puede actualizar la información del paciente, por si su nivel de urgencia cambia." style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="525.88" width="180" height="62.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="800" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="Sxsv5j0yogh4FWrSsxf4-41" value="Sistema de gestión hospitalaria&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="25" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
