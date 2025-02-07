@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airsoft Mania - Iniciar Sesión</title>
+  <link rel="stylesheet" href="css/inicioSes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>AIRSOFT MANIA</h1>
+    <form>
+      <label for="email">Introduzca su Correo Electrónico</label>
+      <input type="email" id="email">
+
+      <label for="password">Introduzca su contraseña</label>
+      <div class="password-container">
+        <input type="password" id="password">
+      </div>
+
+      <p class="forgot-password">¿Olvidó su contraseña? <a class="forgot-password-link" href="#">Haga click aquí</a></p>
+      <button type="button" class="login-btn">Iniciar Sesión</button>
+    </form>
+
+    <p class="register">¿No tienes cuenta? <a class="register-link" href="#">Regístrate aquí</a></p>
+    <div class="divider">O iniciar con</div>
+    <div class="social-buttons">
+      <!-- Google Icon -->
+      <div class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="30" height="30">
+          <path d="M27.585,64c0-4.157,0.69-8.143,1.923-11.881L7.938,35.648C3.734,44.183,1.366,53.801,1.366,64c0,10.191,2.366,19.802,6.563,28.332l21.558-16.503C28.266,72.108,27.585,68.137,27.585,64" fill="#FBBC05"/>
+          <path d="M65.457,26.182c9.031,0,17.188,3.2,23.597,8.436L107.698,16C96.337,6.109,81.771,0,65.457,0C40.129,0,18.361,14.484,7.938,35.648l21.569,16.471C34.477,37.033,48.644,26.182,65.457,26.182" fill="#EA4335"/>
+          <path d="M65.457,101.818c-16.812,0-30.979-10.851-35.949-25.937L7.938,92.349C18.361,113.516,40.129,128,65.457,128c15.632,0,30.557-5.551,41.758-15.951L86.741,96.221C80.964,99.86,73.689,101.818,65.457,101.818" fill="#34A853"/>
+          <path d="M126.634,64c0-3.782-0.583-7.855-1.457-11.636H65.457v24.727h34.376c-1.719,8.431-6.397,14.912-13.092,19.13l20.474,15.828C118.981,101.129,126.634,84.861,126.634,64" fill="#4285F4"/>
+        </svg>
+      </div>
+    
+      <!-- Apple Icon -->
+      <div class="social-icon-apple">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+          <path d="M18.003 12.5a5.495 5.495 0 0 1 3.039-4.913C19.435 6.082 17.37 6 17.002 6c-.974 0-1.67.264-2.343.52-.651.247-1.267.48-2.157.48s-1.506-.233-2.157-.48C9.672 6.264 8.976 6 8 6 7.387 6 2 6.196 2 13c0 5.564 3.797 11 6.001 11 1.35 0 2.126-.315 2.81-.594.536-.217.999-.405 1.691-.405.692 0 1.155.188 1.69.406.686.278 1.462.593 2.81.593 1.545 0 3.743-2.671 4.998-6.182-2.368-.613-3.997-2.758-3.997-5.318zM12.002 6c2.93-.6 5.03-3.015 5-6-2.929.6-5.029 3.015-5 6z" fill="#ffffff"/>
+          <path d="M8.001 6.25c.975 0 1.671.264 2.344.52.651.247 1.267.48 2.157.48s1.506-.233 2.157-.48c.673-.256 1.369-.52 2.344-.52.354 0 2.282.089 3.86 1.442.06-.033.117-.074.179-.105C19.435 6.082 17.37 6 17.002 6c-.974 0-1.67.264-2.343.52-.651.247-1.267.48-2.157.48s-1.506-.233-2.157-.48C9.672 6.264 8.976 6 8 6 7.387 6 2 6.196 2 13c0 .046.005.092.006.138C2.068 6.45 7.39 6.25 8 6.25z" fill="#ffffff" opacity=".1"/>
+          <path d="M17.002 23.75c-1.348 0-2.124-.315-2.81-.593-.535-.218-.998-.406-1.69-.406s-1.155.188-1.69.405c-.685.279-1.461.594-2.81.594-2.187 0-5.935-5.347-5.996-10.862 0 .04-.006.073-.006.112 0 5.564 3.797 11 6.001 11 1.35 0 2.126-.315 2.81-.594.536-.217.999-.405 1.691-.405.692 0 1.155.188 1.69.406.686.278 1.462.593 2.81.593 1.545 0 3.743-2.671 4.998-6.182-.03-.007-.055-.021-.084-.03-1.272 3.401-3.402 5.962-4.914 5.962zM16.98.442c-.207 2.731-2.231 4.734-4.975 5.305a5.912 5.912 0 0 0-.003.253C14.844 5.418 16.906 3.122 17 .26c-.009.047-.006.126-.02.182z" opacity=".2" fill="#ffffff"/>
+        </svg>
+      </div>
+    
+      <!-- Facebook Icon -->
+      <div class="social-icon">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" height="30" width="30">
+          <path d="M18,32V18h6l1-6h-7V9c0-2,1.002-3,3-3h3V0c-1,0-3.24,0-5,0c-5,0-7,3-7,8v4H6v6h6v14H18z" fill="#3B5998"/>
+        </svg>
+      </div>
+    
+    </div>
+
+    <div class="guest-text">
+      <p><a href="index.html" >Soy invitado</a></p>
+    </div>
+  </div>
+
+    <!-- Ventana emergente genérica -->
+<div id="popup" class="popup" style="display: none;">
+  <div class="popup-content">
+    <p id="popup-message"></p>
+    <button id="close-popup">Aceptar</button>
+  </div>
+</div>
+
+  <script src="js/inicioSes.js"></script>
+</body>
+
+</html>

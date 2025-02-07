@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general de los formularios */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #263860;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+  background-color: #263860;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Estilos para los labels */
+label {
+  font-size: 16px;
+  /* Cambia el tamaño de la fuente */
+  color: #fff;
+  /* Cambia el color del texto */
+  display: block;
+  /* Asegura que los labels se ubiquen encima de los inputs */
+  margin-bottom: 5px;
+  /* Espacio debajo del label */
+  text-align: justify;
+  font-weight: 600;
+}
+
+/* Estilo general para todos los inputs */
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  /* El input ocupa todo el ancho disponible */
+  padding: 10px;
+  /* Espaciado interno */
+  font-size: 16px;
+  /* Tamaño de la fuente */
+  color: #ffffff;
+  /* Color del texto */
+  background-color: #ffffff22; /* Fondo claro */
+  /* Fondo claro */
+  border: 2px solid #ccc;
+  /* Color de borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  margin-bottom: 15px;
+  /* Espacio debajo del input */
+  transition: border-color 0.3s ease;
+  /* Animación para el cambio de borde */
+}
+
+.password-container {
+  position: relative;
+}
+
+.show-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #ccc;
+}
+
+/* Estilo de la sección de "Olvidó su contraseña" */
+.forgot-password {
+  text-align: justify; 
+  font-size: 12px; 
+  margin-top: -12px; /* Reduce el espacio entre la contraseña y este texto */
+  margin-bottom: 15px; /* Espacio entre este texto y el botón */
+}
+
+.forgot-password-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.forgot-password-link:hover {
+  color: #ffffff6d; /* Cambia el color al pasar el ratón */
+  cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+/* Botón de iniciar sesión */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #263860; /* Define el borde azul */
+  border-radius: 5px;
+  background-color: #fff;
+  color: #263860;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 15px; /* Separación con el texto de registro */
+}
+
+.login-btn:hover {
+  background-color: #263860; /* Fondo azul */
+  border-color: #fff; /* Borde blanco */
+  color: #fff; /* Texto blanco */
+}
+
+/* Estilo de la sección de "¿No tienes cuenta? Regístrate aquí" */
+.register {
+  text-align: justify; 
+  font-size: 12px; 
+  margin-top: 0px; /* Reduce el espacio entre el botón y este texto */
+  margin-top: -12px;
+}
+
+.register-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.register-link:hover {
+  color: #ffffff6d; /* Cambia el color al pasar el ratón */
+  cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+
+.divider {
+  margin: 20px 0;
+  font-size: 0.9rem;
+  color: #3f4960;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Añade una transición suave */
+}
+
+.social-icon-apple {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Añade una transición suave */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
+
+.social-icon-apple:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
+
+
+.guest-text {
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.guest-text a {
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.guest-text a:hover {
+  color: #ffffff6d; /* Cambia el color al pasar el ratón */
+  cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#close-popup {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#close-popup:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#close-popup:active {
+  background-color: #0251a5; /* Verde aún más oscuro al hacer clic */
+  transform: scale(1); /* Restablece el tamaño */
+}

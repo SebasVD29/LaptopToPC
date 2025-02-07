@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Tienda</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="#"><img src="assets/images/logo.png" class="logo-img"></a>
+    </div>
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Buscar productos..." />
+      <i class="fas fa-search search-icon"></i>
+    </div>
+    <div class="header-buttons">
+      <button id="profileBtn"><i class="fas fa-user"></i></button>
+      <button id="cartBtn" class="cart-btn">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="badge hidden">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Categorías -->
+    <div class="category-filters">
+      <h3>Categorías</h3>
+      <label>
+        <input type="checkbox" class="category-filter" value="Armas"> Armas
+      </label>
+      <label>
+        <input type="checkbox" class="category-filter" value="Accesorios"> Accesorios
+      </label>
+      <label>
+        <input type="checkbox" class="category-filter" value="Equipo Táctico"> Equipo Táctico
+      </label>
+      <label>
+        <input type="checkbox" class="category-filter" value="Munición"> Munición
+      </label>
+    </div>
+
+    <!-- Productos -->
+    <div class="product-list" id="productList">
+      <!-- Aquí se generarán las cards de productos -->
+    </div>
+  </div>
+
+ <!-- Modal de Producto -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal" onclick="closeProductModal()">&times;</span>
+    <div class="modal-body">
+      <div class="modal-column-left">
+        <img id="modalImage" src="" alt="Producto">
+      </div>
+      <div class="modal-column-right">
+        <h2 id="modalName"></h2>
+        <p><strong>Categoría:</strong> <span id="modalCategory"></span></p>
+        <p id="modalDescription"></p>
+        <p><strong>Precio:</strong> ₡ <span id="modalPrice"></span></p>
+        
+        <!-- Contenedor de cantidad y botón -->
+    <div class="quantity-control">
+      <input type="number" id="productQuantity" value="1" min="1" >
+    </div>
+    
+    <button id="modalAddToCart" class="btn-add-to-cart">
+      <i class="fas fa-shopping-cart"></i> Agregar al carrito
+    </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="js/index.js"></script>
+</body>
+</html>

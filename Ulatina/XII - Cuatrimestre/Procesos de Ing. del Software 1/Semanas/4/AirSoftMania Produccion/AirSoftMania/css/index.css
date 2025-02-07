@@ -1,0 +1,328 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263860;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+header .logo a {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  height: 40px; /* Ajusta el tamaño de tu logo */
+}
+
+header .search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+header .search input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 25px; /* Bordes redondeados */
+  width: 300px;
+  border: 1px solid #ddd;
+}
+
+header .search .search-icon {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  color: #263860;
+}
+
+/* Header buttons */
+header .header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+header .header-buttons button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+header .header-buttons button:hover {
+  color: #ffffff6d;
+}
+
+/* Icono del carrito */
+.cart-btn {
+  position: relative;
+}
+
+.cart-btn .badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+}
+
+.cart-btn .badge.hidden {
+  display: none;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  height: 100vh; /* Asegura que las columnas ocupen toda la altura de la pantalla */
+  margin-top: 60px; /* Para que el contenido no quede debajo del header fijo */
+}
+
+/* Columna de categorías */
+.category-filters {
+  width: 300px; /* Aumento el tamaño de la columna de categorías */
+  background-color: #263860;
+  padding: 20px;
+  height: 100vh; /* Columna de categorías llena toda la pantalla */
+  overflow-y: auto; /* Permite hacer scroll si es necesario */
+  position: sticky;
+  top: 60px; /* Asegura que la columna de categorías se quede fija después del header */
+}
+
+/* Alineación vertical de los checkboxes */
+.category-filters label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.category-filters h3 { /* Si usas h3 para el título */
+  color: white; /* Cambia el color del título a blanco */
+}
+
+.category-filters input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Columna de productos */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Aumento el tamaño mínimo de las cards */
+  gap: 20px;
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto; /* Permite hacer scroll solo en la columna de productos */
+  height: calc(100vh - 60px); /* El alto de la columna de productos debe ajustarse a la pantalla */
+  margin-left: 20px;
+}
+
+/* Estructura de las cards */
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 300px; /* Fijamos el alto de la card */
+}
+
+.product-card img {
+  width: 200px; /* Aumento el tamaño de la imagen */
+  height: auto;
+  margin-right: 15px;
+}
+
+.product-card .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.product-card h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #263860;
+}
+
+.product-card .category {
+  font-size: 14px;
+  color: #777;
+}
+
+.product-card .price {
+  color: #263860;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Estilo del botón de agregar al carrito (ahora alineado a la derecha) */
+.product-card button {
+  background-color: #263860;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: auto; /* Alinea el botón a la derecha */
+}
+
+.product-card button:hover {
+  background-color: #2d4981;
+}
+
+/* Estilos generales del modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  color: #2d4981;
+}
+
+.modal-body {
+  display: flex;
+  padding: 20px;
+}
+
+.modal-column-left {
+  flex: 1;
+  text-align: center;
+}
+
+.modal-column-left img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.modal-column-right {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.modal-column-right h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #263860;
+}
+
+.modal-column-right p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #263860;
+}
+
+/* Estilo del contenedor de cantidad */
+.quantity-control {
+  display: inline-flex; /* Para que el input se mantenga junto al botón */
+  align-items: center;
+  margin-right: 10px; /* Separación con el botón de agregar al carrito */
+  appearance: unset;
+}
+
+
+
+.quantity-control input {
+  width: 50px; /* Ancho de la caja de cantidad */
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #263860;
+  visibility: initial;
+  cursor: pointer;
+}
+
+.quantity-control ::-webkit-inner-spin-button,.quantity-control ::-webkit-inner-spin-button {
+  /* -webkit-appearance: none;  */
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  visibility: unset;
+  cursor: pointer;
+  color: black; /* Color de las flechas */
+  border-radius: 50%; /* Bordes redondeados para las flechas */
+  opacity: 1;
+}
+
+
+
+
+/* Estilo para las flechas en Firefox */
+#productQuantity::-moz-appearance:spinner-button {
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Eliminar borde */
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilo del botón "Agregar al carrito" */
+.btn-add-to-cart {
+  background-color: #263860;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #2d4981;
+}

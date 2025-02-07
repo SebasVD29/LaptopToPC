@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito</title>
+  <link rel="stylesheet" href="css/cart.css">
+</head>
+<header class="header">
+    <button id="backButton" class="back-btn">Atrás</button>
+    <h1>Carrito</h1>
+</header>
+<body>
+  <div class="container">
+    <div class="cart">
+      <div id="cartItems" class="items">
+        <!-- Los productos se agregarán aquí dinámicamente -->
+      </div>
+    </div>
+    <div class="summary">
+      <h2>Detalle de compra</h2>
+      <ul id="cartSummary">
+        <!-- Resumen de los productos agregados se actualizará aquí -->
+      </ul>
+      <p class="total">Total: <span id="totalAmount">₡ 0.00</span></p>
+      <div class="buttons">
+        <button id="empty-cart">Vaciar carrito</button>
+        <button id="checkout">Realizar Pago</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ventana emergente genérica -->
+<div id="popup" class="popup" style="display: none;">
+  <div class="popup-content">
+    <p id="popup-message"></p>
+    <button id="close-popup">Aceptar</button>
+  </div>
+</div>
+
+<!-- Ventana emergente de confirmación -->
+<div id="confirm-popup" class="popup" style="display: none;">
+  <div class="popup-content">
+    <p id="confirm-message">¿Estás seguro de que deseas realizar esta acción?</p>
+    <button id="confirm-yes">Confirmar</button>
+    <button id="confirm-no">Cancelar</button>
+  </div>
+</div>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>

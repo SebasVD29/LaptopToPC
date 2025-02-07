@@ -1,0 +1,314 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+ /* Encabezado */
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263860;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .header h1 {
+    flex: 1;
+    font-size: 1.8em;
+    text-align: center; /* Asegura que el texto del título esté centrado */
+    margin: 0;
+  }
+  
+  .back-btn{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-btn:hover{
+    text-decoration: underline;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .cart {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart h1 {
+    margin: 0;
+    color: #263860;
+  }
+
+  /* Estilos para los botones de incremento y decremento */
+.quantity-control::-webkit-inner-spin-button,
+.quantity-control::-webkit-outer-spin-button {
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  visibility: unset;
+  cursor: pointer;
+  color: black; /* Color de las flechas */
+  border-radius: 50%; /* Bordes redondeados */
+  opacity: 5;
+}
+
+/* Estilos para el campo de entrada de cantidad */
+.quantity-control {
+  font-size: 1rem;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+  .back {
+    text-decoration: none;
+    color: #263860;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .items .item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .details {
+    flex: 1;
+  }
+  
+  .details h2 {
+    margin: 0 0 5px;
+    color: #333;
+  }
+  
+  .details .category {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .details .price {
+    font-weight: bold;
+    color: #263860;
+  }
+  
+  .details label {
+    margin-right: 10px;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .delete {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .summary {
+    width: 35%;
+    background-color: #263860;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .summary h2 {
+    margin: 0 0 20px;
+  }
+  
+  .summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .summary ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .summary .total {
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .buttons button {
+    width: 48%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #empty-cart {
+    background-color: #263860;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+  }
+  
+  #checkout {
+    background-color: white;
+    color: #263860;
+    border: 2px solid white;
+    font-weight: bold;
+  }
+  
+  .empty-cart-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #close-popup {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  #close-popup:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+  #close-popup:active {
+    background-color: #0251a5; /* Verde aún más oscuro al hacer clic */
+    transform: scale(1); /* Restablece el tamaño */
+  }
+
+  .confirm-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .confirm-popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo base para los botones de confirmación */
+.confirm-popup-content button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Estilo específico para el botón "Sí" */
+#confirm-yes {
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#confirm-yes:hover {
+  background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+#confirm-yes:active {
+  background-color: #388e3c; /* Verde aún más oscuro al hacer clic */
+  transform: scale(1); /* Restablece el tamaño */
+}
+
+/* Estilo específico para el botón "Sí" */
+#confirm-no {
+
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #992727;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#confirm-no:hover {
+  background-color: #992727; /* Verde más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+#confirm-no:active {
+  background-color: #992727; /* Verde aún más oscuro al hacer clic */
+  transform: scale(1); /* Restablece el tamaño */
+}
+
+  

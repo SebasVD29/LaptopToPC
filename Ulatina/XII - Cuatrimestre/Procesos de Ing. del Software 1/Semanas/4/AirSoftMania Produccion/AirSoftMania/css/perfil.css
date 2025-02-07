@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Encabezado */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002b5c;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .back-btn,
+  .logout-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .back-btn:hover,
+  .logout-btn:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contenedor principal */
+  .profile-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Foto de perfil */
+  .profile-picture {
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  /* Formulario */
+  .profile-form {
+    display: grid;
+    gap: 15px;
+    text-align: left;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Botón de historial */
+  .orders-btn {
+    margin-top: 20px;
+    background-color: #002b5c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .orders-btn:hover {
+    background-color: #004080;
+  }
+  

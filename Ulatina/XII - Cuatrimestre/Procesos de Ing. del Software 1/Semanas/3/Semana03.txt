@@ -1,0 +1,32 @@
+crear un software pequeño 
+
+
+
+
+
+
+
+
+cascada 
+se divide el proyecto en fases y son dependientes entre si 
+es muy poco flexible 
+
+en el desarrollo de software:
+fase 1: requerimientos, entrevista al cliente, analisis del problema, diseñar el sistema, 
+desarrollo, testing y produccion. 
+fase 2: mantenimiento 
+
+cualquier problema que surga en el punto de testing o mantenimiento significa volver a puntos
+anteriores, lo que significa mas presupuesto. 
+
+agile
+poder evolucionar, agile divide el proceso de desarrollo en pequeños bloques 
+
+se divide el desarrollo no fases verticales dependientes, sino en fases incrementales 
+
+
+
+
+
+
+

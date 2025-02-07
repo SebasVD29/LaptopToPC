@@ -1,0 +1,310 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #003366;
+}
+
+/* Estilos para los labels */
+label {
+    font-size: 16px;  /* Cambia el tamaño de la fuente */
+    color: #333;  /* Cambia el color del texto */
+    display: block; /* Asegura que los labels se ubiquen encima de los inputs */
+    margin-bottom: 5px; /* Espacio debajo del label */
+}
+
+/* Estilo general para todos los inputs */
+input[type="text"], input[type="number"] {
+    width: 100%; /* El input ocupa todo el ancho disponible */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    background-color: #f5f5f5; /* Fondo claro */
+    border: 2px solid #ccc; /* Color de borde */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Espacio debajo del input */
+    transition: border-color 0.3s ease; /* Animación para el cambio de borde */
+}
+
+/* Cambios para los inputs de Vencimiento y CVV */
+input#vencimiento, 
+input#cvv {
+    width: 80%; /* Se reduce el ancho para que se vea más pequeño */
+    padding: 8px; /* Se reduce el padding */
+    font-size: 14px; /* Tamaño de la fuente un poco más pequeño */
+    border: 2px solid #ccc; /* Borde más pequeño */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio debajo del input */
+}
+
+input[type="month"] {
+    width: 100%; 
+    padding: 8px; 
+    font-size: 14px; 
+    color: #333; 
+    background-color: #f5f5f5; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+}
+
+input[type="month"]:focus {
+    border-color: #4CAF50; 
+    outline: none; 
+}
+
+
+.inline-fields div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.inline-fields div:last-child {
+    margin-right: 0;
+}
+
+.inline-fields input#vencimiento, 
+.inline-fields input#cvv {
+    width: 90%; /* Se ajusta para que ambos inputs sean más pequeños */
+}
+
+
+.payment-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.payment-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-color: #263860;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d1d0d0; /* Color inicial */
+    color: #263860; /* Texto blanco */
+    transition: background-color 0.3s, color 0.3s; /* Animación suave */
+  }
+  
+  .payment-button.active {
+    background-color: #263860; /* Fondo blanco cuando esté activo */
+    color: white; /* Texto azul cuando esté activo */
+  } 
+
+.payment-button:hover {
+    background-color: #263860;
+    color: white;
+}
+
+.payment-button i {
+    font-size: 25px;  /* Tamaño */
+    color: #263860;   /* Color */
+    margin-left: 10px;
+  }
+
+.payment-button.active i  {
+    font-size: 25px;  /* Tamaño */
+    color: white;   /* Color */
+    margin-left: 10px;
+  }
+
+  .payment-button:hover i  {
+    font-size: 25px;  /* Tamaño */
+    color: white;   /* Color */
+    margin-left: 10px;
+  }
+  
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inline-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline-fields div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.inline-fields div:last-child {
+    margin-right: 0;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel-button, .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    background-color: #ccc;
+    color: #333;
+}
+
+.submit-button {
+    background-color: #003366;
+    color: #fff;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: #003366;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.confirm-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .confirm-popup-content {
+    position: fixed;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo base para los botones de confirmación */
+.confirm-popup-content button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Estilo específico para el botón "Sí" */
+#confirm-yes {
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#confirm-yes:hover {
+  background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+#confirm-yes:active {
+  background-color: #388e3c; /* Verde aún más oscuro al hacer clic */
+  transform: scale(1); /* Restablece el tamaño */
+}
+
+/* Estilo específico para el botón "Sí" */
+#confirm-no {
+
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #992727;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#confirm-no:hover {
+  background-color: #992727; /* Verde más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+#confirm-no:active {
+  background-color: #992727; /* Verde aún más oscuro al hacer clic */
+  transform: scale(1); /* Restablece el tamaño */
+}
+
+/* Modal de carga */
+.loading-modal {
+  display: none; /* Inicialmente oculto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lottie-animation {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#lottie-animation img {
+  width: 300px;
+  height: 300px;
+}
+
+#lottie-animation p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
