@@ -1,0 +1,27 @@
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\bin\Debug\net8.0\BtisDataAccess.deps.json
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\bin\Debug\net8.0\BtisDataAccess.dll
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\bin\Debug\net8.0\BtisDataAccess.pdb
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.AssemblyInfoInputs.cache
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.AssemblyInfo.cs
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.dll
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\refint\BtisDataAccess.dll
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.pdb
+C:\Users\sebastian.vargas\source\repos\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\ref\BtisDataAccess.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\bin\Debug\net8.0\BtisDataAccess.deps.json
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\bin\Debug\net8.0\BtisDataAccess.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\bin\Debug\net8.0\BtisDataAccess.pdb
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\bin\Debug\net8.0\BtisEntities.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\bin\Debug\net8.0\BtisEntities.pdb
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.csproj.AssemblyReference.cache
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.AssemblyInfoInputs.cache
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.AssemblyInfo.cs
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisData.3AA899AF.Up2Date
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\refint\BtisDataAccess.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.pdb
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\ref\BtisDataAccess.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisDataAccess\BtisDataAccess\obj\Debug\net8.0\BtisDataAccess.sourcelink.json

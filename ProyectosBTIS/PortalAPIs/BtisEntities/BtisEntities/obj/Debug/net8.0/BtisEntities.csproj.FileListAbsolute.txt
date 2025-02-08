@@ -1,0 +1,23 @@
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\bin\Debug\net8.0\BtisEntities.deps.json
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\bin\Debug\net8.0\BtisEntities.dll
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\bin\Debug\net8.0\BtisEntities.pdb
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.AssemblyInfoInputs.cache
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.AssemblyInfo.cs
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.csproj.CoreCompileInputs.cache
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.dll
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\obj\Debug\net8.0\refint\BtisEntities.dll
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.pdb
+C:\Users\sebastian.vargas\source\repos\BtisEntities\BtisEntities\obj\Debug\net8.0\ref\BtisEntities.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\bin\Debug\net8.0\BtisEntities.deps.json
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\bin\Debug\net8.0\BtisEntities.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\bin\Debug\net8.0\BtisEntities.pdb
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.AssemblyInfoInputs.cache
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.AssemblyInfo.cs
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.csproj.CoreCompileInputs.cache
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\obj\Debug\net8.0\refint\BtisEntities.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.pdb
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\obj\Debug\net8.0\ref\BtisEntities.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BtisEntities\BtisEntities\obj\Debug\net8.0\BtisEntities.sourcelink.json
