@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BtisDataAccess">
+      <HintPath>..\..\BtisDataAccess\BtisDataAccess\bin\Debug\net8.0\BtisDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="BtisEntities">
+      <HintPath>..\..\BtisEntities\BtisEntities\bin\Debug\net8.0\BtisEntities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

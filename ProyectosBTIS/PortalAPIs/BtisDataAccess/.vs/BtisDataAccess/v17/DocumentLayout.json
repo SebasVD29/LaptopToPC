@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisdataaccess\\btisdataaccess\\dausers\\dausuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|solutionrelative:btisdataaccess\\dausers\\dausuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisdataaccess\\btisdataaccess\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|solutionrelative:btisdataaccess\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DAUsers\\DAUsuarios.cs",
+              "RelativeDocumentMoniker": "BtisDataAccess\\DAUsers\\DAUsuarios.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DAUsers\\DAUsuarios.cs",
+              "RelativeToolTip": "BtisDataAccess\\DAUsers\\DAUsuarios.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T17:01:08.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DBConnection.cs",
+              "RelativeDocumentMoniker": "BtisDataAccess\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DBConnection.cs",
+              "RelativeToolTip": "BtisDataAccess\\DBConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:20:59.301Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
