@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APIs\\API1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F841D60-B650-4AD7-BDE7-8AEAAFE80AF8}|API1\\API1.csproj|c:\\users\\sebastian vargas\\documents\\github\\laptoptopc\\pruebas\\api_apis\\backend\\apis\\api1\\api1\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F841D60-B650-4AD7-BDE7-8AEAAFE80AF8}|API1\\API1.csproj|solutionrelative:api1\\controller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F841D60-B650-4AD7-BDE7-8AEAAFE80AF8}|API1\\API1.csproj|c:\\users\\sebastian vargas\\documents\\github\\laptoptopc\\pruebas\\api_apis\\backend\\apis\\api1\\api1\\servicios\\usuarioservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F841D60-B650-4AD7-BDE7-8AEAAFE80AF8}|API1\\API1.csproj|solutionrelative:api1\\servicios\\usuarioservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioServicios.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APIs\\API1\\API1\\Servicios\\UsuarioServicios.cs",
+              "RelativeDocumentMoniker": "API1\\Servicios\\UsuarioServicios.cs",
+              "ToolTip": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APIs\\API1\\API1\\Servicios\\UsuarioServicios.cs",
+              "RelativeToolTip": "API1\\Servicios\\UsuarioServicios.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwGYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:48:54.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APIs\\API1\\API1\\Controller\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "API1\\Controller\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APIs\\API1\\API1\\Controller\\UsuarioController.cs",
+              "RelativeToolTip": "API1\\Controller\\UsuarioController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAawGQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:45:39.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
