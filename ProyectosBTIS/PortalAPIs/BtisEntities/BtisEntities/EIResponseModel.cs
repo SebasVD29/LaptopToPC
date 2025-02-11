@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace BtisEntities
 {
-    public class ResponseModel
+    public class EIResponseModel
     {
-        public int errorcode {  get; set; }
+        public int errorcodelayer {  get; set; }
+        public int statuscode {  get; set; }
         public string errormsg { get; set; }
+        public bool success { get; set; }
     }
 }

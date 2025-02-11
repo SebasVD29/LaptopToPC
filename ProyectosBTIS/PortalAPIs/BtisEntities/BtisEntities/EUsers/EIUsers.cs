@@ -12,9 +12,9 @@ namespace BtisEntities.EUsers
         public string NombreCompleto { get; set; }
         public string CorreoElectronico { get; set; }
         public string Rol { get; set; }
-        //public string FechaCreacion { get; set; }
+        //public DateTime FechaCreacion { get; set; }
         //public string Estado { get; set; }
-
+       
 
 
     }

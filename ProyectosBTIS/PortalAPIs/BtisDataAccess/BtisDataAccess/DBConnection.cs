@@ -53,7 +53,7 @@ namespace BtisDataAccess
                 }
                 return conexion;
             }
-            public string GetConnection(bool useCRM)
+            public string GetConnection(bool usePAPIs)
             {
                 try
                 {

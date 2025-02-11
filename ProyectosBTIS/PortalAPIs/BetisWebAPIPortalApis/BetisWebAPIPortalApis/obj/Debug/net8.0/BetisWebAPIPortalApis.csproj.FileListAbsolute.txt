@@ -42,3 +42,5 @@ C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BetisWebAPIPortalApis\Bet
 C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BetisWebAPIPortalApis\BetisWebAPIPortalApis\obj\Debug\net8.0\BetisWebAPIPortalApis.pdb
 C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BetisWebAPIPortalApis\BetisWebAPIPortalApis\obj\Debug\net8.0\BetisWebAPIPortalApis.genruntimeconfig.cache
 C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BetisWebAPIPortalApis\BetisWebAPIPortalApis\obj\Debug\net8.0\ref\BetisWebAPIPortalApis.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BetisWebAPIPortalApis\BetisWebAPIPortalApis\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\sebastian.vargas\source\repos\Portal-Apis -BE\BetisWebAPIPortalApis\BetisWebAPIPortalApis\obj\Debug\net8.0\BetisWebAPIPortalApis.sourcelink.json

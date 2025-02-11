@@ -10,12 +10,12 @@ namespace BetisWebAPIPortalApis.Services
 {
     public interface IUserService
     {
-        EIResponseUser Authenticate(EIUsers model);
+        EIToken Authenticate(EIUsers model);
         EIUsers GetById(int id);
     }
     public class UserService : IUserService
     {
-        readonly DAUsuarios _DALogins = new DAUsuarios();
+        readonly DAUsuarios _DAUsuarios = new DAUsuarios();
 
         private readonly EITokenSettings _appSettings;
 
@@ -24,18 +24,20 @@ namespace BetisWebAPIPortalApis.Services
             _appSettings = appSettings.Value;
         }
 
-        public EIResponseUser Authenticate(EIUsers model)
+        public EIToken Authenticate(EIUsers model)
         {
-
             var user = model;
+            
+            
             // return null if user not found
             if (user == null) return null;
 
             // authentication successful so generate jwt token
             var token = GenerateJwtToken(user);
 
-            return new EIResponseUser(user, token);
+            EIToken eIToken = new EIToken { Token = token }; 
 
+            return eIToken;
         }
 
         private string GenerateJwtToken(EIUsers user)
@@ -59,7 +61,7 @@ namespace BetisWebAPIPortalApis.Services
         public EIUsers GetById(int id)
         {
 
-            return _DALogins.GetUser(id);
+            return _DAUsuarios.GetUserChecked(id);
 
         }
 

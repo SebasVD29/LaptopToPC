@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisentities\\btisentities\\eiresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|solutionrelative:btisentities\\eiresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisentities\\btisentities\\eusers\\eiresponseuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|solutionrelative:btisentities\\eusers\\eiresponseuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisentities\\btisentities\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|solutionrelative:btisentities\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisentities\\btisentities\\eusers\\eiusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|solutionrelative:btisentities\\eusers\\eiusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisentities\\btisentities\\eusers\\eitoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|solutionrelative:btisentities\\eusers\\eitoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisentities\\btisentities\\eusers\\eitokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|solutionrelative:btisentities\\eusers\\eitokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisentities\\btisentities\\eusers\\eiusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC33ECB3-913B-4A6E-94F1-208BE231E52C}|BtisEntities\\BtisEntities.csproj|solutionrelative:btisentities\\eusers\\eiusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +54,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResponseModel.cs",
-              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\ResponseModel.cs",
-              "RelativeDocumentMoniker": "BtisEntities\\ResponseModel.cs",
-              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\ResponseModel.cs",
-              "RelativeToolTip": "BtisEntities\\ResponseModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "DocumentIndex": 3,
+              "Title": "EIToken.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\EUsers\\EIToken.cs",
+              "RelativeDocumentMoniker": "BtisEntities\\EUsers\\EIToken.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\EUsers\\EIToken.cs",
+              "RelativeToolTip": "BtisEntities\\EUsers\\EIToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T21:33:17.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EIResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\EIResponseModel.cs",
+              "RelativeDocumentMoniker": "BtisEntities\\EIResponseModel.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\EIResponseModel.cs",
+              "RelativeToolTip": "BtisEntities\\EIResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T23:09:05.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EITokenSettings.cs",
               "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\EUsers\\EITokenSettings.cs",
               "RelativeDocumentMoniker": "BtisEntities\\EUsers\\EITokenSettings.cs",
@@ -75,28 +91,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EIUsers.cs",
               "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\EUsers\\EIUsers.cs",
               "RelativeDocumentMoniker": "BtisEntities\\EUsers\\EIUsers.cs",
               "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\EUsers\\EIUsers.cs",
               "RelativeToolTip": "BtisEntities\\EUsers\\EIUsers.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAowAwAAAA1AAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowBAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T16:56:35.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EIResponseUser.cs",
               "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\EUsers\\EIResponseUser.cs",
               "RelativeDocumentMoniker": "BtisEntities\\EUsers\\EIResponseUser.cs",
               "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisEntities\\BtisEntities\\EUsers\\EIResponseUser.cs",
               "RelativeToolTip": "BtisEntities\\EUsers\\EIResponseUser.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBQAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T16:54:11.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T16:54:11.091Z"
             }
           ]
         }
