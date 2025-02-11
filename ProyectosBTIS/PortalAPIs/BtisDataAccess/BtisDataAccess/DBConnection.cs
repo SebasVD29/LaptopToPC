@@ -20,7 +20,7 @@ namespace BtisDataAccess
             public string DBConnectionApis
             {
 
-                get { return _configuration.GetConnectionString("BtisConnectionCRM"); }
+                get { return _configuration.GetConnectionString("BtisConnectionAPIs"); }
 
             }
             //public string DBConnectionReportes

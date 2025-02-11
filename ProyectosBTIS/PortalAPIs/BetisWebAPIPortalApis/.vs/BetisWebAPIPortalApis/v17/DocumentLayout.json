@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BetisWebAPIPortalApis\\",
+  "WorkspaceRootPath": "C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AB0EAA1-33BA-4A6A-8A37-205BA46B23EF}|BetisWebAPIPortalApis\\BetisWebAPIPortalApis.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\betiswebapiportalapis\\betiswebapiportalapis\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AB0EAA1-33BA-4A6A-8A37-205BA46B23EF}|BetisWebAPIPortalApis\\BetisWebAPIPortalApis.csproj|solutionrelative:betiswebapiportalapis\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BetisWebAPIPortalApis\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AB0EAA1-33BA-4A6A-8A37-205BA46B23EF}|BetisWebAPIPortalApis\\BetisWebAPIPortalApis.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\betiswebapiportalapis\\betiswebapiportalapis\\bll\\usuariobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AB0EAA1-33BA-4A6A-8A37-205BA46B23EF}|BetisWebAPIPortalApis\\BetisWebAPIPortalApis.csproj|solutionrelative:betiswebapiportalapis\\bll\\usuariobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Controllers\\UsuarioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BetisWebAPIPortalApis\\Controllers\\UsuarioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AB0EAA1-33BA-4A6A-8A37-205BA46B23EF}|BetisWebAPIPortalApis\\BetisWebAPIPortalApis.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\betiswebapiportalapis\\betiswebapiportalapis\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AB0EAA1-33BA-4A6A-8A37-205BA46B23EF}|BetisWebAPIPortalApis\\BetisWebAPIPortalApis.csproj|solutionrelative:betiswebapiportalapis\\responsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\ResponseMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BetisWebAPIPortalApis\\ResponseMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AB0EAA1-33BA-4A6A-8A37-205BA46B23EF}|BetisWebAPIPortalApis\\BetisWebAPIPortalApis.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\betiswebapiportalapis\\betiswebapiportalapis\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AB0EAA1-33BA-4A6A-8A37-205BA46B23EF}|BetisWebAPIPortalApis\\BetisWebAPIPortalApis.csproj|solutionrelative:betiswebapiportalapis\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\BLL\\UsuarioBLL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BetisWebAPIPortalApis\\BLL\\UsuarioBLL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -52,9 +52,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ResponseMessage.cs",
-              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\ResponseMessage.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\ResponseMessage.cs",
               "RelativeDocumentMoniker": "BetisWebAPIPortalApis\\ResponseMessage.cs",
-              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\ResponseMessage.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\ResponseMessage.cs",
               "RelativeToolTip": "BetisWebAPIPortalApis\\ResponseMessage.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,23 +62,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "BetisWebAPIPortalApis\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Services\\UserService.cs",
               "RelativeToolTip": "BetisWebAPIPortalApis\\Services\\UserService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAIwCAAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T23:03:48.495Z"
+              "WhenOpened": "2025-02-10T23:03:48.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "BetisWebAPIPortalApis\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "BetisWebAPIPortalApis\\Controllers\\UsuarioController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAUwA4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,11 +88,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UsuarioBLL.cs",
-              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\BLL\\UsuarioBLL.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\BLL\\UsuarioBLL.cs",
               "RelativeDocumentMoniker": "BetisWebAPIPortalApis\\BLL\\UsuarioBLL.cs",
-              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\BLL\\UsuarioBLL.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\Documents\\GitHub\\LaptopToPC\\ProyectosBTIS\\PortalAPIs\\BetisWebAPIPortalApis\\BetisWebAPIPortalApis\\BLL\\UsuarioBLL.cs",
               "RelativeToolTip": "BetisWebAPIPortalApis\\BLL\\UsuarioBLL.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAwwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
