@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APICentral\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21DADF65-C3FE-4603-9C3D-A4F895BB8987}|APICentral\\APICentral.csproj|c:\\users\\sebastian vargas\\documents\\github\\laptoptopc\\pruebas\\api_apis\\backend\\apicentral\\apicentral\\bll\\apisbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21DADF65-C3FE-4603-9C3D-A4F895BB8987}|APICentral\\APICentral.csproj|solutionrelative:apicentral\\bll\\apisbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21DADF65-C3FE-4603-9C3D-A4F895BB8987}|APICentral\\APICentral.csproj|c:\\users\\sebastian vargas\\documents\\github\\laptoptopc\\pruebas\\api_apis\\backend\\apicentral\\apicentral\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21DADF65-C3FE-4603-9C3D-A4F895BB8987}|APICentral\\APICentral.csproj|solutionrelative:apicentral\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApisBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APICentral\\APICentral\\BLL\\ApisBLL.cs",
+              "RelativeDocumentMoniker": "APICentral\\BLL\\ApisBLL.cs",
+              "ToolTip": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APICentral\\APICentral\\BLL\\ApisBLL.cs",
+              "RelativeToolTip": "APICentral\\BLL\\ApisBLL.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T20:28:48.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APICentral\\APICentral\\Program.cs",
+              "RelativeDocumentMoniker": "APICentral\\Program.cs",
+              "ToolTip": "C:\\Users\\Sebastian Vargas\\Documents\\GitHub\\LaptopToPC\\Pruebas\\API_APIs\\Backend\\APICentral\\APICentral\\Program.cs",
+              "RelativeToolTip": "APICentral\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:45:25.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
