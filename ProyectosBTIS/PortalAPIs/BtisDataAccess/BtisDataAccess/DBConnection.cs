@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BtisDataAccess
 {
-    internal class DBConnection
+    public  class DBConnection
     {
    
             private static IConfiguration _configuration;
@@ -53,7 +53,7 @@ namespace BtisDataAccess
                 }
                 return conexion;
             }
-            public string GetConnection(bool usePAPIs)
+            public string GetConnection(bool usePortalAPIs)
             {
                 try
                 {
@@ -66,7 +66,7 @@ namespace BtisDataAccess
                 //{
                 //    //return DBConnectionJDE;
                 //}
-            }
+                }
                 catch (Exception ex)
                 {
                     throw new InvalidOperationException(ex.Message);

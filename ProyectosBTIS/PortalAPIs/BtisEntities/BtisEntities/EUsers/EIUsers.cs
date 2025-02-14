@@ -8,14 +8,13 @@ namespace BtisEntities.EUsers
 {
     public class EIUsers
     {
+        
         public int IdUsuario { get; set; }
-        public string NombreCompleto { get; set; }
+        public string NombreUsuario { get; set; }
         public string CorreoElectronico { get; set; }
-        public string Rol { get; set; }
-        //public DateTime FechaCreacion { get; set; }
-        //public string Estado { get; set; }
-       
+        public string NombreRol { get; set; }
 
+        public String token { get; set; }
 
     }
 }

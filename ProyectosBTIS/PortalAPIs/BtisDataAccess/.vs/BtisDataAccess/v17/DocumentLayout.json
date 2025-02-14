@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisdataaccess\\btisdataaccess\\daroles\\daauditoriaroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|solutionrelative:btisdataaccess\\daroles\\daauditoriaroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisdataaccess\\btisdataaccess\\daroles\\daroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|solutionrelative:btisdataaccess\\daroles\\daroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|c:\\users\\sebastian.vargas\\source\\repos\\portal-apis -be\\btisdataaccess\\btisdataaccess\\dausers\\dausuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9900E43-7243-42DC-A1D8-12468AB07F57}|BtisDataAccess\\BtisDataAccess.csproj|solutionrelative:btisdataaccess\\dausers\\dausuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -26,10 +34,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
@@ -38,16 +42,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DAUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DAUsers\\DAUsuarios.cs",
               "RelativeDocumentMoniker": "BtisDataAccess\\DAUsers\\DAUsuarios.cs",
               "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DAUsers\\DAUsuarios.cs",
               "RelativeToolTip": "BtisDataAccess\\DAUsers\\DAUsuarios.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowEEAAAA3AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T17:01:08.4Z",
+              "WhenOpened": "2025-02-12T19:36:26.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAAuditoriaRoles.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DARoles\\DAAuditoriaRoles.cs",
+              "RelativeDocumentMoniker": "BtisDataAccess\\DARoles\\DAAuditoriaRoles.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DARoles\\DAAuditoriaRoles.cs",
+              "RelativeToolTip": "BtisDataAccess\\DARoles\\DAAuditoriaRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:36:23.201Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DARoles.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DARoles\\DARoles.cs",
+              "RelativeDocumentMoniker": "BtisDataAccess\\DARoles\\DARoles.cs",
+              "ToolTip": "C:\\Users\\sebastian.vargas\\source\\repos\\Portal-Apis -BE\\BtisDataAccess\\BtisDataAccess\\DARoles\\DARoles.cs",
+              "RelativeToolTip": "BtisDataAccess\\DARoles\\DARoles.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAA5wDIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:36:00.763Z"
             }
           ]
         }

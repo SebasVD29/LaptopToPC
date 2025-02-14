@@ -13,47 +13,39 @@ namespace BetisWebAPIPortalApis.Controllers
     public class UsuarioController
     {
         private readonly IConfiguration _config;
-        private readonly IUserService _userService;
+        //private readonly IUserService _userService;
         private readonly UsuarioBLL _usuarioBLL;
         private readonly ResponseMessage Mensaje = new ResponseMessage();
-        public UsuarioController(IConfiguration config, IUserService userService)
+        public UsuarioController(IConfiguration config, /*IUserService userService,*/ UsuarioBLL usuarioBLL)
         {
             _config = config;
-            _userService = userService;
-            
+            //_userService = userService;
+            _usuarioBLL = usuarioBLL;
+
+
         }
 
-        [HttpPost("GetAccessUser")]
+
+        [HttpGet("GetAccessUser")]
         [AllowAnonymous]
-        public IActionResult GetAccessUser([FromBody] EIUsers Users)
+        public IActionResult GetAccessUser(string correo)
         {
             try
             {
-                int idUsuario = _usuarioBLL.GetIdUserCorreo(Users.CorreoElectronico);
-                if (idUsuario == 0)
+                EIResponseUser _EIResponseUser = _usuarioBLL.GetUsersChecked(correo);
+
+                if (_EIResponseUser.usuario.IdUsuario > 0)
                 {
-                    return Mensaje.Credenciales_Incorrectas();
+                    return Mensaje.OK_EIuser(_EIResponseUser);
                 }
                 else
                 {
-                    EIResponseUser _EIResponseUser = _usuarioBLL.GetUsersId(Convert.ToInt32(idUsuario));
-                    return new JsonResult(_EIResponseUser);
-
+                    return Mensaje.Credenciales_Incorrectas();
                 }
-
             }
             catch (Exception ex)
             {
-                EIResponseModel responseModel = new EIResponseModel();
-                EIResponseUser responseUser = new EIResponseUser();
-
-                responseModel.errorcodelayer = -1;
-                responseModel.success = false;
-                responseModel.statuscode = 404;
-                responseModel.errormsg = ex.Message;
-                responseUser.errores = responseModel;
-
-                return new JsonResult(responseUser);
+                return Mensaje.Credenciales_Incorrectas();
             }
         }
     }
@@ -61,30 +53,4 @@ namespace BetisWebAPIPortalApis.Controllers
 }
 
 
-//UsuarioExterno _IdUsuario = new UsuarioExterno();
-//_IdUsuario = _BLUsers.InfoUsuario(Users.CorreoElectronico);
 
-//if (_IdUsuario.IdUsuario == 0)
-//{
-//    return StatusCode(StatusCodes.Status200OK, JsonConvert.SerializeObject(new { msg = "Usuario no existe en el sistema", success = false }));
-//}
-//else
-//{
-//    ResponseUser _EIResponseUser = new ResponseUser();
-
-//    var usuario = _BLUsers.GetUsersId(Convert.ToInt32(_IdUsuario.IdUsuario), _IdUsuario.Externo);
-//    _EIResponseUser.IdIdiomaDefault = "es";
-//    _EIResponseUser.IdTemaCssDefault = "theme-default";
-//    _EIResponseUser.Nombre = usuario.Nombre;
-//    _EIResponseUser.Correo = Users.CorreoElectronico;
-//    _EIResponseUser.IdCliente = usuario.IdCliente;
-//    _EIResponseUser.Telefono = usuario.Telefono;
-//    _EIResponseUser.Token = _userService.Authenticate(Users);
-//    _EIResponseUser.IdUsuario = Convert.ToInt32(_IdUsuario.IdUsuario);
-//    _EIResponseUser.Externo = Convert.ToInt32(_IdUsuario.Externo);
-//    _EIResponseUser.Roles = Convert.ToString(usuario.Roles);
-//    _EIResponseUser.NumeroEmpleado = Convert.ToString(usuario.NumeroEmpleado);
-//    _EIResponseUser.Cedula = Convert.ToString(usuario.Cedula);
-//    _EIResponseUser.UsuarioPrueba = _config.GetValue<string>("ApplicationSettings:UsuarioHernan");
-//    return StatusCode(StatusCodes.Status200OK, JsonConvert.SerializeObject(new { msg = _EIResponseUser, success = true }));
-//}

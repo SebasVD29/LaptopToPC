@@ -27,7 +27,7 @@ namespace BetisWebAPIPortalApis
         }
         public IActionResult OK_EIuser(EIResponseUser _EIResponseUser)
         {
-            return StatusCode(StatusCodes.Status200OK, JsonConvert.SerializeObject(new { _EIResponseUser, success = true }));
+            return StatusCode(StatusCodes.Status200OK, JsonConvert.SerializeObject(new { msg = _EIResponseUser.usuario, success = true }));
         }
         public IActionResult StatusOk_General(string mensaje, bool status)
         {

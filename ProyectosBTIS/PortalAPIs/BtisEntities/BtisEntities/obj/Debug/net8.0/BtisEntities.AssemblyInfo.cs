@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BtisEntities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49e2647680194a50b85048b9028f6320201bd538")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cd9865f54400f36153c541b8bbbf01cc7c182fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BtisEntities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BtisEntities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BtisDataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49e2647680194a50b85048b9028f6320201bd538")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2afd5aebc2cb485884fc898bf92f372007f5093b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BtisDataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BtisDataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

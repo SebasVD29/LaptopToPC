@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BetisWebAPIPortalApis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0da37e9565de4b37fae71fb53f852a820691a39d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cd9865f54400f36153c541b8bbbf01cc7c182fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BetisWebAPIPortalApis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BetisWebAPIPortalApis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

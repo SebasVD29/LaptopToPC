@@ -63,10 +63,10 @@ namespace BetisWebAPIPortalApis.Helpers
                 }, out SecurityToken validatedToken);
 
                 var jwtToken = (JwtSecurityToken)validatedToken;
-                var userId = int.Parse(jwtToken.Claims.First(x => x.Type == "IdUsuario").Value);
+                var userCorreo = (jwtToken.Claims.First(x => x.Type == "CorreoElectronico")).ToString();
 
                 // attach user to context on successful jwt validation
-                context.Items["EIUsers"] = userService.GetById(userId);
+                context.Items["EIUsers"] = userService.GetUserChecked(userCorreo);
             }
             catch
             {

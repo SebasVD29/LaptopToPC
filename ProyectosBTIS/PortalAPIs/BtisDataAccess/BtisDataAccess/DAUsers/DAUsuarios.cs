@@ -1,4 +1,5 @@
-﻿using BtisEntities.EUsers;
+﻿using BtisEntities.ERoles;
+using BtisEntities.EUsers;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -14,40 +15,13 @@ namespace BtisDataAccess.DAUsers
         readonly DBConnection _DBConnection = new DBConnection();
 
         #region PublicMethods
-        public int GetIdUserCorreo(String correo)
-        {
-            try
-            {
-                int _IdUsuario;
-                using (SqlConnection _conn = new SqlConnection(_DBConnection.DBConnectionApis))
-                {
-                    _conn.Open();
-
-                    using SqlCommand _cmd = new SqlCommand();
-                    _cmd.Connection = _conn;
-                    _cmd.CommandType = CommandType.StoredProcedure;
-                    _cmd.CommandText = "PA_Revisar_Usuario_Portal_Clientes_MFA";
-
-                    _cmd.Parameters.AddWithValue("@Correo", Convert.ToString(correo));
-                    _cmd.Parameters.Add("@IdUsuario", SqlDbType.BigInt);
-                    _cmd.Parameters["@IdUsuario"].Direction = ParameterDirection.Output;
-                    _cmd.ExecuteNonQuery();
-                    _IdUsuario = Convert.ToInt32(_cmd.Parameters["@IdUsuario"].Value);
-                }
-
-                return _IdUsuario;
-            }
-            catch (Exception)
-            {
-                //envia el error a un capa superior
-                throw;
-            }
-        }
-        public EIUsers GetUserChecked(int IdUsuario)
+      
+        public EIUsers Get_User_Checked(String correo)
         {
             try
             {
                 EIUsers _EIUsers = new EIUsers();
+              
                 using (SqlConnection _conn = new SqlConnection(_DBConnection.DBConnectionApis))
                 {
                     _conn.Open();
@@ -55,16 +29,16 @@ namespace BtisDataAccess.DAUsers
                     using SqlCommand _cmd = new SqlCommand();
                     _cmd.Connection = _conn;
                     _cmd.CommandType = CommandType.StoredProcedure;
-                    _cmd.CommandText = "PA_Obtener_Usuario_Portal_Clientes";
-
-                    _cmd.Parameters.AddWithValue("@IdUsuario", Convert.ToString(IdUsuario));
-
+                    _cmd.CommandText = "Usuario.ValidarUsuarioMFA";
+                    _cmd.Parameters.AddWithValue("@Correo", Convert.ToString(correo));
                     SqlDataReader DsReader = _cmd.ExecuteReader();
 
                     if (DsReader.Read())
                     {
                         _EIUsers = LoadUsers(DsReader);
                     }
+
+                    _conn.Close();
                 }
                 return _EIUsers;
 
@@ -75,7 +49,33 @@ namespace BtisDataAccess.DAUsers
                 throw;
             }
         }
+        public bool Exist_Rol_In_User(string nombreRol)
+        {
+            try
+            {
+                bool existeRolUsuario;
+                using SqlConnection _conn = new SqlConnection(_DBConnection.DBConnectionApis);
+                _conn.Open();
 
+                using SqlCommand _cmd = new SqlCommand();
+                _cmd.Connection = _conn;
+                _cmd.CommandType = CommandType.StoredProcedure;
+                _cmd.CommandText = "AP_";
+                _cmd.Parameters.AddWithValue("@NombreRol", Convert.ToString(nombreRol));
+                _cmd.Parameters.Add("@Resultado", 0);
+                _cmd.Parameters["@Resultado"].Direction = ParameterDirection.Output;
+             
+                _cmd.ExecuteNonQuery();
+                existeRolUsuario = Convert.ToBoolean(_cmd.Parameters["@Resultado"].Value);
+                
+                return existeRolUsuario;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        
         #endregion
 
         #region PrivateMethods
@@ -84,10 +84,10 @@ namespace BtisDataAccess.DAUsers
             return new EIUsers
             {
                 IdUsuario = Convert.ToInt32(ReadyUsers["IdUsuario"]),
-                NombreCompleto = Convert.ToString(ReadyUsers["NombreCompleto"]),
+                NombreUsuario = Convert.ToString(ReadyUsers["NombreUsuario"]),
                 CorreoElectronico = Convert.ToString(ReadyUsers["CorreoElectronico"]),
-                Rol = Convert.ToString(ReadyUsers["Rol"]),
-             
+                NombreRol = Convert.ToString(ReadyUsers["NombreRol"]),
+
             };
         }
 
